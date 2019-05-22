@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Sitemap: https://www.ibcfiduciaria.ch/sitemap-index.xml
