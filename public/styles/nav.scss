@@ -20,6 +20,8 @@ body {
   justify-content: space-between;
 }
 
+.container.is-fluid{margin-left:64px;margin-right:64px;max-width:none}
+
 .mx-auto {
   margin: 0 auto;
 }
@@ -48,10 +50,10 @@ body {
   left: 0;
   opacity: 0;
   position: fixed;
-  background-image: url(../img/ibc_fiduciaria_navigation_bg.png);
+  background-image: url(../img/ibc_fiduciaria_navigation_bg.jpg);
   background-size: cover;
   z-index: 1000;
-  transition: .6s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .nav-overlay-container {
@@ -86,4 +88,18 @@ nav .overlay-nav-toggle {
 
 .accordion-drawer {
   margin-bottom: 10px;
+}
+
+.container.is-fluid{
+  margin-left:64px;
+  margin-right:64px;
+  max-width:none;
+}
+
+@media only screen and (max-width: 768px){
+  .container.is-fluid{
+    margin-left:0;
+    margin-right:0;
+    max-width:none;
+  }
 }
