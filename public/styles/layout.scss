@@ -43,6 +43,18 @@ footer {
   font-weight: 500;
 }
 
+.accordion-drawer-title::after {
+  content: '\2795'; 
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion-drawer-title.active::after {
+  content: "\2796"; 
+}
+
 .accordion-drawer-content {
   display: none;
 }
